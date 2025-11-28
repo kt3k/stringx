@@ -1,4 +1,4 @@
-# @kt3k/stringx v0.2.0
+# @kt3k/stringx v0.2.1
 
 A minimal jsx runtime implementation. Renders jsx into a string.
 
@@ -8,7 +8,7 @@ Set the below in `tsconfig.json` or `deno.json`:
 {
   "compilerOptions": {
     "jsx": "react-jsx",
-    "jsxImportSource": "@kt3k/stringx@0.2.0"
+    "jsxImportSource": "@kt3k/stringx@0.2.1"
   }
 }
 ```
