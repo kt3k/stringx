@@ -60,6 +60,7 @@ Deno.test("Fragment factory", () => {
 
 Deno.test("props are escaped", () => {
   assertEquals(
+    // deno-lint-ignore jsx-curly-braces
     <div class={'"><script>alert(1)</script><div><div class="'} />,
     '<div class="&quot;&gt;&lt;script&gt;alert(1)&lt;/script&gt;&lt;div&gt;&lt;div class=&quot;"></div>',
   )
