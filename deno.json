@@ -1,5 +1,5 @@
 {
-  "name": "@kt3k/picojsx",
+  "name": "@kt3k/stringx",
   "version": "0.1.7",
   "exports": {
     ".": "./index.ts",

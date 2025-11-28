@@ -2,6 +2,6 @@ version: 0.1.7
 commit: "chore: bump to %.%.%"
 files:
   README.md:
-    - "@kt3k/picojsx v%.%.%"
-    - "@kt3k/picojsx@%.%.%"
+    - "@kt3k/stringx v%.%.%"
+    - "@kt3k/stringx@%.%.%"
   deno.json: '"version": "%.%.%"'
