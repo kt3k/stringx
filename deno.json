@@ -1,6 +1,6 @@
 {
   "name": "@kt3k/stringx",
-  "version": "0.1.7",
+  "version": "0.2.0",
   "exports": {
     ".": "./index.ts",
     "./jsx-runtime": "./jsx_runtime.ts"
