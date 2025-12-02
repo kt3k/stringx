@@ -17,5 +17,7 @@ jobs:
       - run: deno fmt --check
       - run: deno lint
       - run: deno test
+      - run: deno publish --dry-run
+        if: github.ref_type != 'tag'
       - run: deno publish
         if: github.ref_type == 'tag'
